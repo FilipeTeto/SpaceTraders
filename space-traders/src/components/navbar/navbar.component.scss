@@ -1,0 +1,37 @@
+.navbar-container{
+    height: 4rem;
+    background-color: black;
+    display: flex;
+    
+}
+.logo, .logo-link {
+     display: flex;
+     text-decoration: none;
+     cursor: pointer;
+}
+
+.rocket{
+    height: 2rem;
+    width: 2rem;
+    color: var(--gray);
+    margin: 1rem;
+    margin-top: 1.25rem;
+
+}
+
+.navbar-title{
+    font-family: "Orbitron", serif;
+    color: var(--gray);
+    font-weight: 400;
+    margin: auto 0;
+}
+
+.link-container{
+    display: flex;
+    align-items: center;
+    margin: auto 2rem;
+    cursor: pointer;
+    a{
+        text-decoration: none;
+    }
+}

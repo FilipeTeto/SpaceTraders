@@ -1,0 +1,39 @@
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Iss068e027836.jpeg/1280px-Iss068e027836.jpeg');
+  background-size: cover;
+}
+
+:root {
+--darker-blue: #062c43;
+--darkblue: #054569;
+--blue: #5591a9;
+--lightblue: #9ccddc;
+--gray: #ced7e0;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}

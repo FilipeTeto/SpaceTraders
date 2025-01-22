@@ -1,0 +1,22 @@
+.title, .announcements-container, .announcement{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    h1, h2 {
+        font-family: "Orbitron", serif;
+        color: var(--gray);
+        font-weight: 400;
+        margin: 0 auto;
+    }
+    p{
+        color: var(--gray);
+        width: 50%;
+        margin: 2rem auto 0 auto;
+    };
+    .announcement-title {
+        font-family: "Orbitron", serif;
+        color: var(--gray);
+        font-weight: 400;
+        margin: 0 auto;
+    }
+}

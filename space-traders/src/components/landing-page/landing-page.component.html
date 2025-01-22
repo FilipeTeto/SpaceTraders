@@ -1,0 +1,21 @@
+<div class="title">
+    <h1>Welcome to SpaceTraders!</h1>
+    @if (!data) {
+        <p>Loading data, please wait...</p>
+    } @else {
+        <p> {{ data.description }}</p>
+    }
+</div>
+<!-- <div class="announcements-container">
+    <h2>Announcements</h2>
+    @if (!data) {
+        <p>Loading announcements, please wait...</p>
+    } @else {
+    @for (announcement of data.announcements; track announcement) {
+        <div class="announcement">
+            <h3 class="announcement-title">{{ announcement.title }}</h3>
+            <p>{{ announcement.body }}</p>
+        </div>
+    }
+}
+</div> -->

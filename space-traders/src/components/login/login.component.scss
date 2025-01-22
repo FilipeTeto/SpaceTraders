@@ -1,0 +1,42 @@
+.login-container {
+    display: flex;
+    height: calc(100vh - 4rem);
+    background-color: transparent;
+}
+.login-tabs{
+    width: 25%;
+    margin: 0 auto;
+    margin-top: 20rem;
+    
+}
+.login-form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+input{
+    color: (--gray);
+}
+
+::ng-deep{
+    .mat-mdc-unelevated-button:not(:disabled){
+        background-color: var(--darkblue) !important;
+    }
+    .mat-mdc-tab .mdc-tab-indicator__content--underline {
+        border-color: var(--blue) !important;
+    }
+    .mdc-tab__text-label{
+        color: var(--gray) !important;
+    }
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) {
+        background-color: transparent !important;
+        color: (--gray);
+    }
+    .mat-mdc-form-field:not(.mat-form-field-disabled) .mat-mdc-floating-label.mdc-floating-label {
+        color: var(--gray) !important;
+    }
+    .mdc-text-field--filled:not(.mdc-text-field--disabled) .mdc-text-field__input{
+        color: (--gray) !important;
+    }
+}

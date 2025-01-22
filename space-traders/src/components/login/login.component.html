@@ -1,0 +1,23 @@
+<div class="login-container">
+    <mat-tab-group class="login-tabs" [dynamicHeight]='true'>
+        <mat-tab label="Login">
+                <form class="login-form">
+                    <mat-form-field class="example-full-width">
+                      <mat-label>Access Token</mat-label>
+                      <input type="text" matInput (input)="getToken($event)">
+                    </mat-form-field>
+                    <button mat-flat-button>Login</button>
+                </form>              
+            
+        </mat-tab>
+        <mat-tab label="Register">
+            <form class="login-form">
+                <mat-form-field class="example-full-width">
+                  <mat-label>User Name</mat-label>
+                  <input type="text" matInput (input)="getUserName($event)">
+                </mat-form-field>
+                <button mat-flat-button>Register</button>
+            </form>   
+        </mat-tab>
+    </mat-tab-group>
+</div>
